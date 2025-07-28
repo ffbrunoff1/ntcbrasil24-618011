@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Building, HardHat, Wrench } from 'lucide-react';
-
 export default function Hero() {
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -13,7 +12,6 @@ export default function Hero() {
       },
     },
   };
-
   const itemVariants = {
     hidden: { y: 20, opacity: 0 },
     visible: {
@@ -25,7 +23,6 @@ export default function Hero() {
       },
     },
   };
-
   const iconContainerVariants = {
     hidden: { scale: 0 },
     visible: {
@@ -38,7 +35,6 @@ export default function Hero() {
       },
     },
   };
-
   return (
     <section
       id="home"
@@ -56,10 +52,9 @@ export default function Hero() {
             variants={itemVariants}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark leading-tight mb-4"
           >
-            Transformando suas ideias em{' '}
+            Aumentando suas ideias em{' '}
             <span className="gradient-text">realidade concreta</span>
           </motion.h1>
-
           <motion.p
             variants={itemVariants}
             className="text-lg md:text-xl text-gray-600 mb-8"
@@ -67,7 +62,6 @@ export default function Hero() {
             NTC Brasil: Soluções em construção que vão além do esperado, com
             qualidade e compromisso em cada projeto.
           </motion.p>
-
           <motion.div variants={itemVariants}>
             <a href="#contact" className="btn btn-secondary group">
               Fale com um especialista
@@ -75,7 +69,6 @@ export default function Hero() {
             </a>
           </motion.div>
         </motion.div>
-
         <div className="relative hidden md:flex justify-center items-center h-full">
           <motion.div
             className="absolute w-72 h-72 bg-primary/20 rounded-full blur-2xl"
@@ -96,7 +89,6 @@ export default function Hero() {
               delay: 2,
             }}
           ></motion.div>
-
           <motion.div
             variants={iconContainerVariants}
             initial="hidden"
