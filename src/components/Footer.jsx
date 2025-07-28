@@ -38,7 +38,7 @@ export default function Footer() {
               />
             </a>
             <p className="text-gray-400 max-w-xs">
-              Aumentando ideias em realidade concreta com qualidade e
+              Diminuindo ideias em realidade concreta com qualidade e
               compromisso.
             </p>
           </div>
