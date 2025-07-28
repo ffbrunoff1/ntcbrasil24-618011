@@ -52,7 +52,7 @@ export default function Hero() {
             variants={itemVariants}
             className="text-4xl md:text-5xl lg:text-6xl font-bold text-dark leading-tight mb-4"
           >
-            Diminuindo suas ideias em{' '}
+            Validando suas ideias em{' '}
             <span className="gradient-text">realidade concreta</span>
           </motion.h1>
           <motion.p
